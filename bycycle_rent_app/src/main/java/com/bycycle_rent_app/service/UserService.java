@@ -7,6 +7,6 @@ import com.bycycle_rent_app.dto.BicycleDTO;
 public interface UserService {
 
 	public String rentBicycle(Integer userId,Integer bicycleId);
-	public List<BicycleDTO> searchBicycleById();
-	
+	public List<BicycleDTO> searchBicycleByType();
+	public List<BicycleDTO> searchBicycleByRent();
 }
